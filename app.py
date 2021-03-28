@@ -18,31 +18,39 @@ def sms_reply():
     responded = False
     resp = MessagingResponse()
     msg = resp.message()
+    # resp.message("You Said: {}".format(reply_msg))
 
-    if "taxi" in reply_msg:
-       reply_msg("Welcome to whatsapp taxi booking.\n1.Book a taxi\n2.About us")
+    # if "taxi" in reply_msg:
+    #    msg.body("Welcome to whatsapp taxi booking.\n1.Book a taxi\n2.About us")
 
-       if reply_msg == 1:
-            reply_msg("Enter city")
-            if reply_msg == "harare"  :
-               reply_msg("Taxi has been booked.\nNow share your location using your whatsapp")
-            else:
-                reply_msg("Sorry they are no available taxis in your city")
-       else:
-            reply_msg("hhhhhhhhhhhhhh")
+    #    if reply_msg == 1:
+    #         msg.body("Enter city")
+    #         if reply_msg == "harare"  :
+    #            msg.body("Taxi has been booked.\nNow share your location using your whatsapp")
+    #         else:
+    #             msg.body("Sorry they are no available taxis in your city")
+    #    else:
+    #         msg.body("hhhhhhhhhhhhhh")
    
+    # else:
+    #     msg.body("For booking a taxi type the word\n-Taxi")
+
+    if 'taxi' in reply_msg:
+        msg.body("Book Taxi? Reply *book*")
+        
+    elif 'book' in reply_msg:
+        msg.body('Enter City')
+                
+    elif 'harare' in reply_msg:
+        msg.body('Taxi has been booked')
+                
     else:
-        reply_msg("For booking a taxi type the word\n-Taxi")
+        msg.body('Sorry they are no available taxis in your city')
+
+
 
 
     return str(resp)
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-
-
-
-
