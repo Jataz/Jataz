@@ -1,48 +1,32 @@
-from flask import Flask, request
-from twilio.twiml.messaging_response import MessagingResponse
-import requests
+# -*- encoding: utf-8 -*-
+"""
+Copyright (c) 2019 - present AppSeed.us
+"""
 
+from flask_migrate import Migrate
+from os import environ
+from sys import exit
+from decouple import config
 
+from config import config_dict
+from app import create_app, db
 
-app = Flask(__name__)
+# WARNING: Don't run with debug turned on in production!
+DEBUG = config('DEBUG', default=True)
 
-@app.route("/")
-def hello():
-    return "Hello, World!"
+# The configuration
+get_config_mode = 'Debug' if DEBUG else 'Production'
 
-
-@app.route("/sms", methods=['POST'])
-def sms_reply():
+try:
     
-    reply_msg = request.form.get('Body').lower()
-    responded = False
-    resp = MessagingResponse()
-    msg = resp.message()
+    # Load the configuration using the default values 
+    app_config = config_dict[get_config_mode.capitalize()]
 
-    if "taxi" in reply_msg:
-       reply_msg("Welcome to whatsapp taxi booking.\n1.Book a taxi\n2.About us")
+except KeyError:
+    exit('Error: Invalid <config_mode>. Expected values [Debug, Production] ')
 
-       if reply_msg == 1:
-            reply_msg("Enter city")
-            if reply_msg == "harare"  :
-               reply_msg("Taxi has been booked.\nNow share your location using your whatsapp")
-            else:
-                reply_msg("Sorry they are no available taxis in your city")
-       else:
-            reply_msg("hhhhhhhhhhhhhh")
-   
-    else:
-        reply_msg("For booking a taxi type the word\n-Taxi")
-
-
-    return str(resp)
+app = create_app( app_config ) 
+Migrate(app, db)
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
-
-
-
-
-
-
+    app.run()
