@@ -20,7 +20,6 @@
 [![Flask](https://img.shields.io/badge/flask-black?style=for-the-badge&logo=flask)](https://github.com/Jataz)
 [![Laravel](https://img.shields.io/badge/laravel-black?style=for-the-badge&logo=laravel)](https://github.com/Jataz)
 [![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/Jataz)
-[![Node](https://img.shields.io/badge/node-black?style=for-the-badge&logo=Node)](https://github.com/Jataz)
 [![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/Jataz)
 [![CSS3](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/Jataz)
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://github.com/Jataz)
