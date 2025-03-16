@@ -45,30 +45,31 @@ Full-stack developer passionate about building efficient, user-friendly web appl
         <tr>
             <td>
                 <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=dark&hide_border=true&layout=compact&bg_color=00000000&text_color=ffffff" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=default&hide_border=true&layout=compact" />
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=default&hide_border=true&layout=compact" alt="Top Languages" />
+                    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jataz&theme=dark&hide_border=true&layout=compact&bg_color=00000000&text_color=ffffff" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jataz&theme=light&hide_border=true&layout=compact" />
+                    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jataz&theme=light&hide_border=true&layout=compact" alt="Top Languages" />
                 </picture>
             </td>
             <td>
                 <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jataz&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&text_color=ffffff" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=jataz&theme=default&hide_border=true&include_all_commits=true&count_private=true" />
-                    <img src="https://github-readme-stats.vercel.app/api?username=jataz&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+                    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jataz&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&text_color=ffffff" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jataz&theme=light&hide_border=true&include_all_commits=true&count_private=true" />
+                    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jataz&theme=light&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
                 </picture>
             </td>
         </tr>
         <tr>
             <td colspan="2" align="center">
                 <picture>
-                    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=dark&hide_border=true&background=00000000&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff" />
-                    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=default&hide_border=true" />
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=default&hide_border=true" alt="GitHub Streak Stats" />
+                    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=jataz&theme=dark&hide_border=true&background=00000000&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=jataz&theme=light&hide_border=true" />
+                    <img src="https://streak-stats.demolab.com/?user=jataz&theme=light&hide_border=true" alt="GitHub Streak Stats" />
                 </picture>
             </td>
         </tr>
     </table>
 </div>
+
 
 ## 🏆 GitHub Trophies
 <div align="center">
