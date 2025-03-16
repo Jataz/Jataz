@@ -41,9 +41,21 @@ Full-stack developer passionate about building efficient, user-friendly web appl
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=default&hide_border=true&layout=compact" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=jataz&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" /><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=default&hide_border=true" alt="GitHub Streak Stats" /><br/>
+    <table>
+        <tr>
+            <td>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=default&hide_border=true&layout=compact" alt="Top Languages" />
+            </td>
+            <td>
+                <img src="https://github-readme-stats.vercel.app/api?username=jataz&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=default&hide_border=true" alt="GitHub Streak Stats" />
+            </td>
+        </tr>
+    </table>
 </div>
 
 ## 🏆 GitHub Trophies
