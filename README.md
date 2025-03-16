@@ -44,19 +44,20 @@ Full-stack developer passionate about building efficient, user-friendly web appl
     <table>
         <tr>
             <td>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jataz&theme=default&hide_border=true&layout=compact" alt="Top Languages" />
+                <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jataz&theme=transparent&hide_border=true&layout=compact" alt="Top Languages" />
             </td>
             <td>
-                <img src="https://github-readme-stats.vercel.app/api?username=jataz&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+                <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jataz&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
             </td>
         </tr>
         <tr>
             <td colspan="2" align="center">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=jataz&theme=default&hide_border=true" alt="GitHub Streak Stats" />
+                <img src="https://streak-stats.demolab.com/?user=jataz&theme=transparent&hide_border=true" alt="GitHub Streak Stats" />
             </td>
         </tr>
     </table>
 </div>
+
 
 <div align="center">
     <table>
