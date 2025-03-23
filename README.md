@@ -5,7 +5,7 @@
 </div>
 
 ## 💫 About Me
-Full-stack developer passionate about building efficient, user friendly web applications. I enjoy working with various technologies across the stack and am always eager to learn and apply new concepts.
+Full-stack developer passionate about building efficient, user-friendly web applications. I enjoy working with various technologies across the stack and am always eager to learn and apply new concepts.
 
 ## 🌐 Connect with Me
 <div align="left">
