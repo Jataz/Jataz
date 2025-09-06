@@ -7,7 +7,7 @@
 ## 💫 About Me
 Full-stack developer passionate about building efficient, user-friendly web applications. I enjoy working with various technologies across the stack and am always eager to learn and apply new concepts.
 
-## 🌐 Connect with Me
+<!-- ## 🌐 Connect with Me -->
 <!-- <div align="left">
   <a href="https://twitter.com/africa_ja17" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" />
